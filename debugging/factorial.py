@@ -5,7 +5,7 @@ def factorial(n):
     result = 1
     while n > 1:
         result *= n
-        n -= 1
+        n -= 1   # Decrement n so the loop ends
     return result
 
 if __name__ == "__main__":
